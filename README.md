@@ -7,7 +7,7 @@ What problem builder design pattern solves?
 -	Class constructor requires a lot of information.
 
 Example: 
-Product instances are immutable. An immutable object is an object whose states or properties cannot be changed once that is created. In other word, the value of created object can be changed. String class is a good example. Once you create a string object you cannot change its value.
+Product instances are immutable. An immutable object is an object whose states or properties cannot be changed once that is created. In other word, the value of created object cannot be changed. String class is a good example. Once you create a string object you cannot change its value.
 When you are writing immutable class, you will often end up with constructors with multiple parameters. Because, there is no setters and you have to provide all this information for the object in the constructor itself.
 Having a method or constructor with multiple parameters is a bad coding practice.
 
